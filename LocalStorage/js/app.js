@@ -1,9 +1,9 @@
-// Variables
+// VARIABLES
 const listaProductos = document.querySelector('#lista-productos');
 const formulario = document.querySelector('#formulario');
 let productos = [];
 
-// Event Listeners
+// EVENT LISTENERS
 eventListeners();
 
 function eventListeners() {
@@ -20,6 +20,8 @@ function eventListeners() {
           crearHTML();
      });
 }
+
+//FUNTIONS
 
 // Añadir producto del formulario
 function agregarProducto(e) {
